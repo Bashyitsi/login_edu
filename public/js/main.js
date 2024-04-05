@@ -107,3 +107,25 @@
     
 })(jQuery);
 
+function redirectToAboutPage() {
+    window.location.href = "/about"; 
+}
+function redirectToIndexPage() {
+    window.location.href = "/index"; 
+}
+function redirectToCoursesPage() {
+    window.location.href = "/courses"; 
+}
+ function redirectToContactPage() {
+    window.location.href = "/contact"; 
+}
+ function redirectToTeamPage() {
+    window.location.href = "/team";
+}
+ function redirectToTestimonialPage() {
+    window.location.href = "/testimonial"; 
+}
+function redirectToProgramPage() {
+    window.location.href = "/program"; 
+}
+

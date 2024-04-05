@@ -17,6 +17,27 @@ app.use(express.static(publicPath))
 app.get('/signup', (req, res) => {
     res.render('signup')
 })
+app.get('/about', (req, res) => {
+    res.render('about')
+})
+app.get('/contact', (req, res) => {
+    res.render('contact')
+})
+app.get('/courses', (req, res) => {
+    res.render('courses')
+})
+app.get('/team', (req, res) => {
+    res.render('team')
+})
+app.get('/testimonial', (req, res) => {
+    res.render('testimonial')
+})
+app.get('/index', (req, res) => {
+    res.render('index')
+})
+app.get('/program', (req, res) => {
+    res.render('program')
+})
 
 app.get('/', (req, res) => {
     res.render('login')
