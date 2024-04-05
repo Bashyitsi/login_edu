@@ -37,7 +37,7 @@ app.post('/signup', async (req, res) => {
             res.send("User details already exist")
         } else {
             await LogInCollection.create(data)
-            res.status(201).render("home", { naming: req.body.firstname })
+            res.status(201).render("login", { naming: req.body.firstname })
         }
     } catch (error) {
         res.send("Error occurred while processing request")
